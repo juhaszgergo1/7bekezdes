@@ -1,0 +1,40 @@
+/* Alap háttér és szöveg színek */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.text-danger {
+    color: #e74c3c !important; /* piros szín */
+}
+
+.bg-danger {
+    background-color: #e74c3c !important; /* piros háttér */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important; /* világosszürke háttér */
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
